@@ -39,6 +39,7 @@ contract Marketplace{
         productsLength++;
     }
 
+// public function that will return the number of products stored, which will iterate over in the frontend
     function getProductLength() public view returns (uint) {
         return (productsLength);
     }
