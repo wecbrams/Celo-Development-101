@@ -16,9 +16,39 @@
 				"name": "readProduct",
 				"outputs": [
 					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					},
+					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -33,8 +63,28 @@
 					},
 					{
 						"internalType": "string",
-						"name": "_product",
+						"name": "_name",
 						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_image",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
 					}
 				],
 				"name": "writeProduct",
@@ -56,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"smart-contract/multiple_products_Mappings.sol": "Marketplace"
+			"smart-contract/save_multiple_variables_with structs.sol": "Marketplace"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -70,12 +120,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"smart-contract/multiple_products_Mappings.sol": {
-			"keccak256": "0x6321e165f3059c7601f9c248016e36ace591ec7497c41e5a19792cdb0465a8c7",
+		"smart-contract/save_multiple_variables_with structs.sol": {
+			"keccak256": "0x8a62b326d4a3eafb95cbca9b304c68104779e773dc028e90aaae1cda1a84d4a1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66f7e0cf08af6bc59bd519e36dea77b87ea325adef4cabc26f2b1d00ccdf7d09",
-				"dweb:/ipfs/Qme5ZFT9qzpUDEZqK4t7hBoYvegiGbfheMUJcjzzHBvfzH"
+				"bzz-raw://becf3127e3ec5e8c11279cb3f760d0b2deedd8301810aeb9f5e1b192cb396347",
+				"dweb:/ipfs/QmZzsb91MXHv2dn3Hs9aGq1ip9zJg1JVSjREo737YWWpyR"
 			]
 		}
 	},
