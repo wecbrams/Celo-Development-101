@@ -6,45 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "readProduct",
+				"inputs": [],
+				"name": "getProductLength",
 				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -56,11 +20,6 @@
 			},
 			{
 				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					},
 					{
 						"internalType": "string",
 						"name": "_name",
@@ -106,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"smart-contract/save_multiple_variables_with structs.sol": "Marketplace"
+			"smart-contract/optimasing_the_contract.sol": "Marketplace"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -120,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"smart-contract/save_multiple_variables_with structs.sol": {
-			"keccak256": "0x8a62b326d4a3eafb95cbca9b304c68104779e773dc028e90aaae1cda1a84d4a1",
+		"smart-contract/optimasing_the_contract.sol": {
+			"keccak256": "0x94f562856fc427665b317fbc3cf342561f4cd0285c633803982a7e173212f0f7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://becf3127e3ec5e8c11279cb3f760d0b2deedd8301810aeb9f5e1b192cb396347",
-				"dweb:/ipfs/QmZzsb91MXHv2dn3Hs9aGq1ip9zJg1JVSjREo737YWWpyR"
+				"bzz-raw://cfffad293eb9dc04d4475ef469f4d738468c04a17ce821547b857098efa52e9b",
+				"dweb:/ipfs/QmQqFeqAB45SJGXY3VMzB7mDkWQZciCWGmhk9YAMyCY5eq"
 			]
 		}
 	},
