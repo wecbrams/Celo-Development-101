@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "readProduct",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_product",
+						"type": "string"
+					}
+				],
+				"name": "writeProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart-contract/multiple_products_Mappings.sol": "Marketplace"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart-contract/multiple_products_Mappings.sol": {
+			"keccak256": "0x6321e165f3059c7601f9c248016e36ace591ec7497c41e5a19792cdb0465a8c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66f7e0cf08af6bc59bd519e36dea77b87ea325adef4cabc26f2b1d00ccdf7d09",
+				"dweb:/ipfs/Qme5ZFT9qzpUDEZqK4t7hBoYvegiGbfheMUJcjzzHBvfzH"
+			]
+		}
+	},
+	"version": 1
+}

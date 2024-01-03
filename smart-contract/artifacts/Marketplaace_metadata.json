@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readProduct",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_product",
+						"type": "string"
+					}
+				],
+				"name": "writeProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart-contract/read_write_functions.sol": "Marketplaace"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart-contract/read_write_functions.sol": {
+			"keccak256": "0xdde041598c6c30dea6589848fe5c09ddb2ec11bdc74a0f78474d3972fc608a89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a0db0dff4f2e34e7a6776e0be46ae173ee2b8df992783dcf510e5a0b956d85d",
+				"dweb:/ipfs/Qmc854imxqVPNqjxZ65Msv7ovdP2EinvdDsESd3BHnufbN"
+			]
+		}
+	},
+	"version": 1
+}
