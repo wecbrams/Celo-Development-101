@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "buyProduct",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getProductLength",
 				"outputs": [
@@ -65,7 +78,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"smart-contract/optimasing_the_contract.sol": "Marketplace"
+			"smart-contract/transactions_and_ERC20_Interface.sol": "Marketplace"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -79,12 +92,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"smart-contract/optimasing_the_contract.sol": {
-			"keccak256": "0x94f562856fc427665b317fbc3cf342561f4cd0285c633803982a7e173212f0f7",
+		"smart-contract/transactions_and_ERC20_Interface.sol": {
+			"keccak256": "0x9d893001a7ab9e603131067af388b66eb0bd3970d9badfa1f35815a4f852ddcc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cfffad293eb9dc04d4475ef469f4d738468c04a17ce821547b857098efa52e9b",
-				"dweb:/ipfs/QmQqFeqAB45SJGXY3VMzB7mDkWQZciCWGmhk9YAMyCY5eq"
+				"bzz-raw://ef41b78e375d3a524bffb58e923b6973ce3eb6696c71bb7032f7971a83e38497",
+				"dweb:/ipfs/QmaVZeNPZyvFwcyBxpNgDbjbZCdJiT3LoMFrxQmW6e3QqH"
 			]
 		}
 	},
